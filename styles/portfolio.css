@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared css styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.orange-color-text {
+    color: #FD6E0A;
+}
+
+.primary-button {
+    color: #fff;
+    background-color: #FD6E0A;
+    border: none;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 10%;
+    font-weight: 700;
+}
+
+
+/* Navigation related styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > h3 {
+    font-size: 2.5rem;
+    color: #181818;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+    padding: 0.8rem;
+}
