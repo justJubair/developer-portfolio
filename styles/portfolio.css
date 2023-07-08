@@ -118,7 +118,7 @@ main {
   border-radius: 10px;
   background: #fff8f3;
   width: 85%;
-  margin: 4em auto;
+  margin: 5em auto;
   padding: 3rem;
 }
 
@@ -152,6 +152,7 @@ main {
 .skill-container {
   display: flex;
   padding: 2em;
+  margin-bottom: 5rem;
 }
 
 .skill {
@@ -173,24 +174,41 @@ main {
 /* My summary section related styles */
 .summary-section {
   display: flex;
+  padding: 3em;
 }
 
-.my-edu-container {
+.my-edu-container-job-container {
   padding: 1em;
+  text-align: left;
 }
 
-.edu-title {
+.edu-title-job-title {
   margin-bottom: 1em;
   color: #474747;
   font-weight: 700;
+  font-size: 1.5em;
+  text-align: left;
 }
 
-.university {
-  padding: 1em;
+.university-job {
+  padding: 1em 0;
 }
 
-.uni-title {
+.uni-title-job-title {
   color: #474747;
   font-weight: 700;
   margin-bottom: 0.3em;
+  font-size: 1.2em;
+}
+
+.degree-title-job-company {
+  color: #757575;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+}
+
+.university-job p {
+  color: #757575;
+
 }
