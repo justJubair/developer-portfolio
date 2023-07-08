@@ -64,6 +64,11 @@ nav a {
 /* banner related style */
 .header {
   background-color: #fff8f3;
+  /* background-image: url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-size: 7%;
+  background-position: top left; */
+
 }
 
 .banner {
@@ -71,14 +76,18 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../images/header_bg.png);
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: bottom right;
+  background-size: 50%, 6%;
+  background-position: bottom right, center left;
 }
 
 .banner-content {
   max-width: 500px;
+}
+
+.banner-content i{
+  margin-right: 0.5em;
 }
 
 .banner-greeting {
@@ -101,7 +110,7 @@ nav a {
 
 .inverse-primary-button {
   color: #fd6e0a;
-  background-color: rgb(211, 208, 208);
+  background-color: rgb(231, 231, 231);
   border: none;
   font-size: 1rem;
   padding: 0.8rem;
