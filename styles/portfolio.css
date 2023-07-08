@@ -118,3 +118,21 @@ nav a {
   margin: 4em auto;
   padding: 3rem;
 }
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.info-title {
+  color: #757575;
+}
+
+.info-description {
+  font-weight: bold;
+}
