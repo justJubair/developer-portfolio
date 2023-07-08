@@ -9,6 +9,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+i{
+  margin-right: 0.5em;
+}
+
 .orange-color-text {
   color: #fd6e0a;
 }
@@ -84,10 +88,6 @@ nav a {
 
 .banner-content {
   max-width: 500px;
-}
-
-.banner-content i{
-  margin-right: 0.5em;
 }
 
 .banner-greeting {
