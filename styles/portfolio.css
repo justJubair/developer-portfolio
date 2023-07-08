@@ -241,6 +241,10 @@ main {
   margin-bottom: 1em;
 }
 
+.icon a {
+  margin-right: 1em;
+}
+
 .form h2 {
   color: #181818;
   font-weight: 700;
