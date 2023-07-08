@@ -217,3 +217,49 @@ main {
   color: #757575;
 }
 
+/* footer related styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFF8F3;
+  /* color: #FFF8F3; */
+  padding: 6rem;
+  margin-top: 5em;
+}
+
+.social-media-container {
+  padding-right: 5em;
+}
+.social-media-container h2 {
+  color: #181818;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.social-media-container p {
+  color: #474747;
+  margin-bottom: 1em;
+}
+
+.form h2 {
+  color: #181818;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.basic-form input {
+  padding: 1em;
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 5%;
+  width: 100%;
+}
+
+#message {
+  padding: 1em;
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 5%;
+  width: 100%;
+}
+
