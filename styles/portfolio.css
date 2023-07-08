@@ -150,8 +150,8 @@ main {
 }
 
 .skill-container {
-    display: flex;
-    padding: 2em;
+  display: flex;
+  padding: 2em;
 }
 
 .skill {
@@ -162,7 +162,7 @@ main {
 
 .skill-description {
   color: #757575;
-  margin-top: 1em; 
+  margin-top: 1em;
 }
 
 .skill-title {
@@ -170,3 +170,27 @@ main {
   margin-bottom: 0;
 }
 
+/* My summary section related styles */
+.summary-section {
+  display: flex;
+}
+
+.my-edu-container {
+  padding: 1em;
+}
+
+.edu-title {
+  margin-bottom: 1em;
+  color: #474747;
+  font-weight: 700;
+}
+
+.university {
+  padding: 1em;
+}
+
+.uni-title {
+  color: #474747;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
