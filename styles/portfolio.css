@@ -151,7 +151,8 @@ main {
 
 .skill-container {
   display: flex;
-  padding: 2em;
+  justify-content: space-between;
+  padding: 2em 5em;
   margin-bottom: 5rem;
 }
 
@@ -172,9 +173,13 @@ main {
 }
 
 /* My summary section related styles */
+.section-container {
+  text-align: center;
+}
+
 .summary-section {
   display: flex;
-  padding: 3em;
+  padding: 2em 4em 0 4em;
 }
 
 .my-edu-container-job-container {
@@ -210,5 +215,5 @@ main {
 
 .university-job p {
   color: #757575;
-
 }
+
