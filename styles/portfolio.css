@@ -281,13 +281,53 @@ main {
 
 /* Responsive Media queries  */
 @media screen and (max-width: 576px) {
-  .footer {
+  .footer, .skill-container, .about-info-container, nav > ul   {
     flex-direction: column;
     padding: 2em;
+  }
+
+  .about-info-container {
+    gap: 1em;
   }
 
   .summary-section {
     padding: 1em;
     flex-direction: column;
   }
+
+  .section-description {
+    padding: 0.4em 1em;
+  }
+
+  .about-section {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .skill {
+    margin-right: 0;
+  }
+
+  nav > ul {
+    /* justify-content: center; */
+    gap: 0.5em;
+    padding: 1em;
+    /* align-items: center; */
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .banner {
+    background-image: none;
+    padding: 1em;
+  }
+
+  .profile-pic {
+    width: 50%;
+  }
+  
 }
+
