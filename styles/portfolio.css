@@ -276,3 +276,18 @@ main {
   width: 100%;
 }
 
+
+
+
+/* Responsive Media queries  */
+@media screen and (max-width: 576px) {
+  .footer {
+    flex-direction: column;
+    padding: 2em;
+  }
+
+  .summary-section {
+    padding: 1em;
+    flex-direction: column;
+  }
+}
