@@ -329,5 +329,9 @@ main {
     width: 50%;
   }
   
+  .primary-button, .inverse-primary-button {
+    font-size: 0.8em;
+    padding: 0.4em;
+  }
 }
 
